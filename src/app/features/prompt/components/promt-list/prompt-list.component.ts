@@ -18,7 +18,7 @@ export class PromptListComponent {
   ngOnInit() {
     (window as any).fbAsyncInit = () => {
       FB.init({
-        appId: '1569535140204107',
+        appId: '616786400428551',
         cookie: true,
         xfbml: true,
         version: 'v17.0',
