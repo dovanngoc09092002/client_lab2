@@ -8,7 +8,10 @@ declare const FB: any;
   imports: [PromptRouting],
 })
 export class PromptModule {
-  constructor() {}
+  constructor() {
+    this.connectFacebook();
+    this.checkLoginState();
+  }
 
   connectFacebook() {
     (window as any).fbAsyncInit = function () {
