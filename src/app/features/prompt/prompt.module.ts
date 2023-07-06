@@ -16,10 +16,10 @@ export class PromptModule {
   connectFacebook() {
     (window as any).fbAsyncInit = function () {
       FB.init({
-        appId: '{your-app-id}',
+        appId: '616786400428551',
         cookie: true,
         xfbml: true,
-        version: '{api-version}',
+        version: 'v17.0',
       });
 
       FB.AppEvents.logPageView();
