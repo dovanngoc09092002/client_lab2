@@ -7,7 +7,10 @@ import { HeaderComponent } from 'src/app/shared/components/header/header.compone
   selector: 'ai-aide-app-business-layouts',
   templateUrl: './business.component.html',
   styleUrls: ['./business.component.scss'],
-  imports: [RouterModule , HeaderComponent],
+  imports: [RouterModule, HeaderComponent],
   standalone: true,
 })
-export class BusinessComponent {}
+export class BusinessComponent {
+  constructor() {}
+
+}
