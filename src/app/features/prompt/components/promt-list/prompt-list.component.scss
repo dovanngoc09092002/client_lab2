@@ -1,0 +1,27 @@
+.prompt-list-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .prompt-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: white;
+    padding: 10px 16px;
+
+    .prompt-actions {
+      display: flex;
+      gap: 16px;
+
+      .action-item {
+        cursor: pointer;
+
+        &:hover {
+          color: #8b8b8b;
+        }
+      }
+    }
+  }
+}
